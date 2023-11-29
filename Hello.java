@@ -5,5 +5,7 @@ public class Hello{
         System.out.println("First project for jenkins");
         System.out.println(new Date());
         System.out.println("Hello");
+        Student student= new Student();
+        student.greeting();
     }
 }
